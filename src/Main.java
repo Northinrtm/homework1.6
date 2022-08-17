@@ -15,6 +15,7 @@ public class Main {
         for (int spending: generateRandomArray() ) {
             sumSpending += spending;
         }
-        
+        System.out.println(sumSpending + "рублей.");
     }
+
 }
