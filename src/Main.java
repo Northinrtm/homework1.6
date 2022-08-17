@@ -29,8 +29,11 @@ public class Main {
                 maxSpending = spending;
             }
         }
-        System.out.println("Минимальная сумма трат за день составила "
-                + minSpending + " рублей. Максимальная сумма трат за день составила"
+        System.out.println("Минимальная сумма трат за день составила " +
+                + minSpending + " рублей. Максимальная сумма трат за день составила" +
                 + maxSpending + " рублей");
+        System.out.println("\n Задание 3:");
+        System.out.println("Средняя сумма трат за месяц составила " +
+                + (double)sumSpending/30.0 + " рублей.");
     }
 }
